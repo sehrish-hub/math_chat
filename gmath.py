@@ -22,6 +22,7 @@ def generate_practice_question():
     prompt = f"Generate a unique math problem for students to practice."
     response = model.generate_content(prompt)
     return response.text
+    
 
 
 
